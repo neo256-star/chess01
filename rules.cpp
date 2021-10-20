@@ -8,8 +8,7 @@
 // Created by ME on 10/1/2021.
 //
 
-#ifndef CHESS01_RULES_H
-#define CHESS01_RULES_H
+
 /* ******************************************************
 	Revised 11th October 2021 : created the rules()s functions
 	Revised 12th October 2021 : revised the rules()s functions
@@ -209,4 +208,3 @@ TODO : opponent_is() should take unlimited parameters like printf()
 TODO : make functions like can_eliminate() or cannot_eliminate() objects, i think like chmembers::black::pawn  can_eliminate()
 TODO : same for move_next.
 */
-#endif //CHESS01_RULES_H

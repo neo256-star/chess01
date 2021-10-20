@@ -7,6 +7,8 @@
 
 //#include "headers.h"
 
+
+
 /* rules functions */
 void white_pawn_rules();
 void white_knight_rules();

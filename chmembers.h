@@ -9,6 +9,7 @@
 
 
 
+
 /* rules functions */
 void white_pawn_rules();
 void white_knight_rules();
@@ -28,43 +29,41 @@ namespace chmembers{
 	namespace white{
 		enum class pawn{
 			pawn1,pawn2,pawn3,pawn4,pawn5,pawn6,pawn7,pawn8
-		}  //pawn
+		};  //pawn
 		enum class knight{
 			knight1,knight2
-		}//knight
+		};//knight
 		enum class rook{
 			rook1,rook2
-		}//rook
+		};//rook
 		enum class bishop{
 			bishop1,bishop2
-		}//bishop
+		};//bishop
 		enum class queen{
-			queen1
-		}//queen
+	         queen1
+		};//queen
 		enum class king{
-			king
-		}//king
+	         king
+		};//king
 	} // white
 	namespace black{
 		enum class pawn{
 			pawn1,pawn2,pawn3,pawn4,pawn5,pawn6,pawn7,pawn8
-		}  //pawn
+		};  //pawn
 		enum class knight{
 			knight1,knight2
-		}//knight
+		};//knight
 		enum class rook{
 			rook1,rook2
-		}//rook
+		};//rook
 		enum class bishop{
 			bishop1,bishop2
-		}//bishop
+		};//bishop
 		enum class queen{
-			queen1   //1 at end of definition because unlike a king a queen
-		// isn't constantly one
-		}//queen
+	        queen1
+		};//queen
 		enum class king{
-			king
-		}//king
-	}  //black
+	         king
+		};//king
+      }  //black
 } //chmembers
-#endif //CHESS01_CHMEMBERS_H

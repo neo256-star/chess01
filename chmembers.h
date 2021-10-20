@@ -18,10 +18,10 @@ void white_queen_rules();
 void white_king_rules();
 void black_pawn_rules();
 void black_knight_rules();
-void black_ rook_rules();
+void black_rook_rules();
 void black_bishop_rules();
 void black_queen_rules();
-void black_ king_rules();
+void black_king_rules();
 /*rules functions declarations */
 
 namespace chmembers{
